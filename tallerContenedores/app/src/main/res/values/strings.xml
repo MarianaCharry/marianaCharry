@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tallerContenedores</string>
+    <string name="tituloPrincipal">Tipo de Contenedores</string>
+    <string name="mensajeSeleccionar">Selecciona uno</string>
+    <string name="boton1">Linear Layout</string>
+    <string name="boton2">Relative Layout</string>
+    <string name="boton3">Frame Layout</string>
+    <string name="boton4">Constraint Layout</string>
+    <string name="boton5">Card View</string>
+    <string name="boton6">Recycler View</string>
+    <string name="boton7">List View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

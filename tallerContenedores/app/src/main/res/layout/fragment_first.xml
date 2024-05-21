@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8c004b"
+        android:text="@string/boton1"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <EditText
+                android:layout_width="381dp"
+                android:layout_height="247dp"
+                android:hint="Hola"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:layout_width="383dp"
+                android:layout_height="212dp"
+                android:hint="Hello"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:layout_width="383dp"
+                android:layout_height="253dp"
+                android:hint="Salut"
+                android:textColorHint="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
